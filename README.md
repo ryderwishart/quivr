@@ -79,6 +79,7 @@ Additionally, you'll need a [Supabase](https://supabase.com/) account for:
     
     ```bash
     brew install gum # Windows (via Scoop) scoop install charm-gum
+    brew install postgresql # The install_helper script uses `psql` for table actions
     
     chmod +x install_helper.sh
     ./install_helper.sh
